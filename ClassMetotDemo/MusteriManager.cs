@@ -13,5 +13,10 @@ namespace ClassMetotDemo
         {
             Console.WriteLine(musteri.Ad + " adlı müşteri eklendi");
         }
+
+        public void Sil(Musteri musteri)
+        {
+            Console.WriteLine(musteri.Ad + " adlı müşteri silindi");
+        }
     }
 }
